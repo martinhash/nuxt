@@ -1,17 +1,17 @@
 <template>
-  <h1>Welcome to my first nuxt App</h1>
+  <h1>Post index</h1>
 </template>
 
 <script>
 export default {
   head(){
     return {
-      title: 'Index',
+      title: 'post',
       meta: [
         {
-          hid: 'description of Index',
-          name: 'indexName',
-          content: 'Website index',
+          hid: 'description of post',
+          name: 'postName',
+          content: 'Website post',
         }
       ],
       htmlAttrs: {
